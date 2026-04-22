@@ -54,6 +54,7 @@ public class Employee {
     public double getGrossPay(){
         if (hoursWorked > 40){
             return hoursWorked * payRate + (hoursWorked - 40) * payRate * 0.5;
+
         }
         return hoursWorked * payRate;
     }
